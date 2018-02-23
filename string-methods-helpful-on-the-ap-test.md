@@ -22,9 +22,23 @@ System.out.println("The second instance of e in \"" + greeting + "\" is " + seco
 
 ##### `String trim()` //returns a String, str without leading or trailing spaces
 
+```
+String spaces = "     lots of spaces!            ";
+String spacesRemoved = spaces.trim();
+System.out.println("Before spaces, our String is \"" + spaces + "\", and, afterwards, it's \"" + spacesRemoved + "\".");
+```
+
+[See it here.](http://rextester.com/XODSR60900)
+
 ##### `String replace(char oldChar, char newChar)` //returns a String with all instances of oldChar replaced
 
-##### //with newChar in the String calling the procedure
+#####                                                                                 //with newChar in the String calling the procedure
+
+```
+String oldWord = "goose";
+String newWord = oldWord.replace('o','e');
+System.out.println("\"" + oldWord + "\" becomes \"" + newWord + "\"."); 
+```
 
 ### Possibly helpful, behave as expected
 
