@@ -32,13 +32,15 @@ System.out.println("Before spaces, our String is \"" + spaces + "\", and, afterw
 
 ##### `String replace(char oldChar, char newChar)` //returns a String with all instances of oldChar replaced
 
-#####                                                                                 //with newChar in the String calling the procedure
+##### //with newChar in the String calling the procedure
 
 ```
 String oldWord = "goose";
 String newWord = oldWord.replace('o','e');
-System.out.println("\"" + oldWord + "\" becomes \"" + newWord + "\"."); 
+System.out.println("\"" + oldWord + "\" becomes \"" + newWord + "\".");
 ```
+
+[See it here.](http://rextester.com/XDAMF5829)
 
 ### Possibly helpful, behave as expected
 
